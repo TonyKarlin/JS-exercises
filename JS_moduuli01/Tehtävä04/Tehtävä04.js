@@ -2,7 +2,7 @@
 
 const potterName = prompt('Enter your name');
 
-let houses = Math.floor(Math.random() * 4 + 1);
+const houses = Math.floor(Math.random() * 4 + 1);
 const allHouses = document.querySelector('p');
 
 if (houses === 1) {
